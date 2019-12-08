@@ -1,0 +1,6 @@
+---
+applications:
+  - name: locker-delivery-guy
+    memory: 16M
+    disk: 64M
+    instances: 1
