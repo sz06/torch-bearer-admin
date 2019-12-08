@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: locker-delivery-guy
+  - name: torchbeareradmin
     memory: 16M
     disk: 64M
     instances: 1

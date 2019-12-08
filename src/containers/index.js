@@ -1,7 +1,11 @@
 import Auth from './Auth';
-import PackageDropoff from "./PackageDropoff";
 import ContactUs from './ContactUs';
 import Home from './Home';
-import Log from './Log';
+import RegisterSchool from './RegisterSchool';
+import Results from './Results';
+import Settings from './Settings';
+import BookCounselor from './BookCounselor';
+import Forum from './Forum';
+import Counselors from './Counselors';
 
-export { Auth, PackageDropoff, ContactUs, Home, Log };
+export { Auth, ContactUs, Home, RegisterSchool, Results, Settings, Forum, BookCounselor, Counselors };

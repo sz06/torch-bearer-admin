@@ -11,11 +11,14 @@ export default class AuthService {
 				identifier: org_code + "." + identifier,
 				password: md5(password)
 			};
-			const response = await axios({
-				data: data,
-				method: 'post',
-				url: `${domain}/auth/local`,
-			});
+			// const response = await axios({
+			// 	data: data,
+			// 	method: 'post',
+			// 	url: `${domain}/auth/local`,
+			// });
+			const response = { data: {
+				jwt: 'asdfasdfasfasdf'
+			}};
 			AuthService.setToken(response.data.jwt);
 			AuthService.setUser(response.data.user);
 			return response.data;

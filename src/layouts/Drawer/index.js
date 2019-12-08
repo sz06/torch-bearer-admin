@@ -15,7 +15,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import {withStyles} from '@material-ui/core/styles';
-import {Home, ContactMail, Settings, Work, Storage} from "@material-ui/icons";
+import {Home, ContactMail, Settings, Work, Storage, People, CalendarToday} from "@material-ui/icons";
 import { AuthService } from "../../lib";
 
 const drawerWidth = 240;
@@ -64,10 +64,13 @@ const styles = theme => ({
 const links = [
 	{to: '/', label: 'Home', Icon: Home},
 	{to: '/contact', label: 'Contact Us', Icon: ContactMail},
+	{to: '/counselors', label: 'Counselors', Icon: People},
+	{to: '/forum', label: 'Forum', Icon: ContactMail},
 ];
 
 const secureLinks = [
 	{to: '/register-school', label: 'Register your school', Icon: Work},
+	{to: '/book-counselor', label: 'Book a counselor', Icon: ContactMail},
 	{to: '/results', label: 'Results', Icon: Storage},
 	{to: '/settings', label: 'Settings', Icon: Settings},
 	// {to: '/logout', label: 'Logout', Icon: ExitToApp},
@@ -143,7 +146,7 @@ class Main extends React.Component {
 						{/*</Link>*/}
 						<div>
 							<Typography variant="h6" color="inherit">
-								eLocker
+								Mashal-e-rah
 							</Typography>
 						</div>
 					</Toolbar>

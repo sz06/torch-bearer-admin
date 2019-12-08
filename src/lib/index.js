@@ -1,6 +1,6 @@
 import AuthService from './AuthService';
 import UserService from './UserService';
-import LockerService from './LockerService';
+import ResultsService from './ResultsService';
 import UtilService from "./UtilService";
 
-export { AuthService, UserService, LockerService, UtilService };
+export { AuthService, UserService, ResultsService, UtilService };
