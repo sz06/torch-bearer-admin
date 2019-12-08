@@ -67,8 +67,8 @@ const links = [
 ];
 
 const secureLinks = [
-	{to: '/dropoff', label: 'Package Dropoff', Icon: Work},
-	{to: '/log', label: 'Log', Icon: Storage},
+	{to: '/register-school', label: 'Register your school', Icon: Work},
+	{to: '/results', label: 'Results', Icon: Storage},
 	{to: '/settings', label: 'Settings', Icon: Settings},
 	// {to: '/logout', label: 'Logout', Icon: ExitToApp},
 ];
